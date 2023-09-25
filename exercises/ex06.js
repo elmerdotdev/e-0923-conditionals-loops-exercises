@@ -19,13 +19,7 @@ If eatsPlants equals true and eatsAnimals equals false, then herbivore should be
 const eatsPlants = false;
 const eatsAnimals = true;
 
-// let category = eatsPlants
-//   ? eatsAnimals
-//     ? "omnivore"
-//     : "herbivore"
-//   : eatsAnimals
-//   ? "carnivore"
-//   : "undefined";
+let category = eatsPlants ? eatsAnimals ? "omnivore" : "herbivore" : eatsAnimals ? "carnivore" : "undefined";
 
 // let category = ""
 // if (eatsPlants) {
@@ -48,3 +42,10 @@ const eatsAnimals = true;
 let raining = false
 let isRaining = raining ? 'Its raining' : 'Its not raining'
 console.log(isRaining)
+
+
+if (raining) {
+  console.log('Its raining')
+} else {
+  console.log('Its not raining')
+}

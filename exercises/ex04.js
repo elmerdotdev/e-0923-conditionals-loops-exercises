@@ -25,3 +25,13 @@ if (
 } else {
     console.log(`Sorry not available`)
 }
+
+if (flavor == 'chocolate' || flavor == 'vanilla') {
+  if (vessel == 'cone' || vessel == 'bowl') {
+    if (toppings == 'sprinkles' || toppings == 'peanuts') {
+      console.log(`I'd like two scoops of ${flavor} ice cream in a ${vessel} with ${toppings}`)
+    }
+  }
+} else {
+  console.log('Sorry not available')
+}
