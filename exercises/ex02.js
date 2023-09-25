@@ -10,3 +10,11 @@ Write a series of conditional statements that:
 
 */
 
+let number = 5 // Number/Integer
+let number2 = "5" // String
+
+if (number == number2) {
+  console.log("same!")
+} else {
+  console.log("not the same!")
+}

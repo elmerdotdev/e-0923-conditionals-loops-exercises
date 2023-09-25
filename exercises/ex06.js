@@ -15,3 +15,36 @@ Use the eatsPlants and eatsAnimals variables to test your code.
 
 If eatsPlants equals true and eatsAnimals equals false, then herbivore should be printed to the console. 
 */
+
+const eatsPlants = false;
+const eatsAnimals = true;
+
+// let category = eatsPlants
+//   ? eatsAnimals
+//     ? "omnivore"
+//     : "herbivore"
+//   : eatsAnimals
+//   ? "carnivore"
+//   : "undefined";
+
+// let category = ""
+// if (eatsPlants) {
+//   if (eatsAnimals) {
+//     category = "omnivore"
+//   } else {
+//     category = "herbivore"
+//   }
+// } else {
+//   if (eatsAnimals) {
+//     category = "carnivore"
+//   } else {
+//     category = "undefined"
+//   }
+// }
+
+// console.log("category", category);
+
+
+let raining = false
+let isRaining = raining ? 'Its raining' : 'Its not raining'
+console.log(isRaining)

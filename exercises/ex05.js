@@ -26,3 +26,48 @@ var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
+
+const shirtWidth = 23; // size L (large)
+const shirtLength = 30; // size L (large)
+const shirtSleeve = 8.71; // size L (large)
+const shirtSize = "N/A";
+
+if (shirtWidth >= 18 && shirtWidth < 20) {
+  if (shirtLength >= 28 && shirtWidth < 29) {
+    if (shirtSleeve >= 8.13 && shirtSleeve < 8.38) {
+      shirtSize = "Size S";
+    }
+  }
+} else if (shirtWidth >= 18 && shirtWidth < 20) {
+  if (shirtLength >= 28 && shirtWidth < 29) {
+    if (shirtSleeve >= 8.13 && shirtSleeve < 8.38) {
+      shirtSize = "Size M";
+    }
+  }
+} else if (shirtWidth >= 18 && shirtWidth < 20) {
+  if (shirtLength >= 28 && shirtWidth < 29) {
+    if (shirtSleeve >= 8.13 && shirtSleeve < 8.38) {
+      shirtSize = "Size L";
+    }
+  }
+} else if (shirtWidth >= 18 && shirtWidth < 20) {
+  if (shirtLength >= 28 && shirtWidth < 29) {
+    if (shirtSleeve >= 8.13 && shirtSleeve < 8.38) {
+      shirtSize = "Size XL";
+    }
+  }
+} else if (shirtWidth >= 18 && shirtWidth < 20) {
+  if (shirtLength >= 28 && shirtWidth < 29) {
+    if (shirtSleeve >= 8.13 && shirtSleeve < 8.38) {
+      shirtSize = "Size 2XL";
+    }
+  }
+} else if (shirtWidth >= 18 && shirtWidth < 20) {
+  if (shirtLength >= 28 && shirtWidth < 29) {
+    if (shirtSleeve >= 8.13 && shirtSleeve < 8.38) {
+      shirtSize = "Size 3XL";
+    }
+  }
+}
+
+console.log(shirtSize);
